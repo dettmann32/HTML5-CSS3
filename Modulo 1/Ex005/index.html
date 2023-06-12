@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinamicas com html</title>
+</head>
+<body>
+    <h1>Vou trabalhar com imagnes</h1>
+    <p>Vamos colocar qualquer imagem que seja dinamica a dispositivos</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/pequena.jpg" type="image/jpg">
+        <source media="(max-width: 1050px )" srcset="imagens/media.jpg" type="image/jpg">
+        <img src="imagens/grande.jpg" alt="grande">
+    </picture>
+    <h1>Agora colocarei um audio</h1>
+    <audio src="Midias/luckyshot.mp3" controls autoplay preload="metadata"></audio>
+</body>
+</html>
