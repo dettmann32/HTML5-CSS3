@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .box{
-    @apply flex bg-red  h-10 w-10 
+    @apply flex mt-16 bg-gradient-to-r from-purple-300 to-purple-900 px-20 py-44 hover:flex-1 duration-500
+
 }
