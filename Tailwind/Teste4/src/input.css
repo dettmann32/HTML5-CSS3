@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .rolagem{
-    @apply bg-white
+    @apply bg-black border-solid border-black border-8
 }
